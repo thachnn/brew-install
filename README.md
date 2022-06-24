@@ -32,4 +32,10 @@ NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/th
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/thachnn/brew-install/HEAD/uninstall.sh)"
 ```
 
+If you want to run the Homebrew uninstaller non-interactively, you can use:
+
+```bash
+NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/thachnn/brew-install/HEAD/uninstall.sh)"
+```
+
 Download the uninstall script and run `/bin/bash uninstall.sh --help` to view more uninstall options.
